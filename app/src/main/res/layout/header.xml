@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    android:paddingRight="20dp"
+    android:background="@drawable/header_background"
+
+    android:paddingLeft="20dp"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:id="@+id/navUser"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/profile"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/navName"
+        android:text="Name"
+        android:textSize="20sp"
+        android:textColor="#fff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/navEmail"
+        android:text="Email"
+        android:textSize="17sp"
+        android:textColor="#fff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/navCategory"
+        android:text="Category"
+        android:textSize="17sp"
+        android:textColor="#fff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/navType"
+        android:text="Type of user"
+        android:textSize="17sp"
+        android:textColor="#fff"/>
+
+
+</LinearLayout>

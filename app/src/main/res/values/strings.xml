@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">StudentMove</string>
+
+    <string-array name="itemSpinner">
+        <item>What do you wish to give away?</item>
+
+        <item>Furniture</item>
+        <item>Clothes</item>
+        <item>Literature Books</item>
+        <item>Food</item>
+
+
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+
+</resources>
